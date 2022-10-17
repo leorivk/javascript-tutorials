@@ -1,0 +1,33 @@
+body {
+    background-color: #403F40;
+}
+
+.emailForm {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailForm div{
+    display: flex;
+    flex-direction: column;
+}
+
+.emailForm div label {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.emailInput {
+    background-color: #2F2E30;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+}
