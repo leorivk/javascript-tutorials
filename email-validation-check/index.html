@@ -8,12 +8,17 @@
     <link href="styles.css", rel="stylesheet"/>
 </head>
 <body>
-    <form class="emailForm">
+    <form class="email">
         <div>
-            <label for="emailInput">Enter Email Address</label>
-            <input id="emailInput" class="emailInput" type="text", placeholder="Enter your email">
-        </div>
+            <label for="email__input">Enter Email Address</label>
+            <div class="email__input-box">
+                <input id="email__input" class="email__input" type="text", placeholder="Enter your email">
+                <i class="hidden email__check fa-solid fa-check"></i>
+                <i class="hidden email__x fa-solid fa-x"></i>
+            </div>
+            <span class="email__span"></span>
     </form>
-    
+    <script src="https://kit.fontawesome.com/fbce929496.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -2,26 +2,31 @@ body {
     background-color: #403F40;
 }
 
-.emailForm {
+.hidden {
+    visibility: hidden;
+}
+
+.email {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.emailForm div{
+.email div{
     display: flex;
     flex-direction: column;
 }
 
-.emailForm div label {
+.email div label {
     color: white;
     font-size: 30px;
     text-align: left;
     margin-bottom: 10px;
 }
 
-.emailInput {
+.email__input {
     background-color: #2F2E30;
     border: none;
     border-radius: 10px;
@@ -30,4 +35,31 @@ body {
     height: 35px;
     font-size: 20px;
     color: white;
+    margin-bottom: 10px;
+}
+
+.match {
+    color: green;
+}
+
+.unmatch {
+    color: red;
+}
+
+.email__input-box {
+    position: relative;
+}
+
+.email div i {
+    position: absolute;
+    right: 15px;
+    top: 18px;
+}
+
+.email__check {
+    color: green;
+}
+
+.email__x {
+    color: red;
 }
