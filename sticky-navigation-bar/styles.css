@@ -1,0 +1,36 @@
+@import "../reset.css";
+
+body {
+    background-color: black;
+    height: 300vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    padding: 10px 0 10px 0;
+}
+
+.nav__title {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 100px;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.nav__menu li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 20px;
+}
