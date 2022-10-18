@@ -4,7 +4,7 @@ const emailSpan = document.querySelector(".email__span");
 
 const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
-const inputHandler = () => {
+const validation = () => {
     const check = document.querySelector(".email__check");
     const x = document.querySelector(".email__x");
     if(emailInput.value !== "") {
@@ -24,6 +24,7 @@ const inputHandler = () => {
 
         }
     } else {
+        emailSpan.innerText = "";
         check.classList.add("hidden");
         x.classList.add("hidden");
         emailSpan.classList.remove("match");
@@ -31,4 +32,4 @@ const inputHandler = () => {
     }
 }
 
-emailInput.addEventListener("input", inputHandler)
+emailInput.addEventListener("input", validation);
