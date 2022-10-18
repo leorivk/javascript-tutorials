@@ -9,12 +9,14 @@ const navHandler = () => {
         for (i=0; i<menu.length; i++) {
             menu[i].children[0].style.color = "white";
         }
+        nav.classList.add("nav__top")
     } else {
         nav.style.background = "white";
         title.style.color = "rgba(0, 0, 0, 0.7)";
         for (i=0; i<menu.length; i++) {
             menu[i].children[0].style.color = "rgba(0, 0, 0, 0.7)";
         }
+        nav.classList.remove("nav__top");
     }
 }
 

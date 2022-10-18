@@ -12,6 +12,7 @@ nav {
     position: fixed;
     width: 100vw;
     padding: 10px 0 10px 0;
+    transition-duration: 1s;
 }
 
 .nav__title {
@@ -33,4 +34,8 @@ nav {
     font-weight: 700;
     color: rgba(0, 0, 0, 0.7);
     margin-left: 20px;
+}
+
+.nav__top {
+    padding: 50px 0 50px 0;
 }
