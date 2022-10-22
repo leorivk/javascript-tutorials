@@ -1,0 +1,14 @@
+@import "../reset.css";
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 100px;
+    color: #fff;
+    text-shadow: 1px, 1px, black;
+}
