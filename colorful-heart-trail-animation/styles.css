@@ -1,0 +1,30 @@
+@import "../reset.css";
+
+body {
+    overflow: hidden;
+    background: #000;
+    height: 100vh;
+}
+span {
+    background: url(heart.png);
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -1000%);
+        opacity: 0;
+        filter: hue-rotate(720deg);
+    }
+}
